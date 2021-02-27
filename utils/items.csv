@@ -1,0 +1,9 @@
+product,price,category,imported
+book,12.49,book,false
+music cd,14.99,entertainment,false
+chocolate bar,0.85,food,false
+imported box of chocolates,10.00,food,true
+imported bottle of perfume,47.50,beauty,true
+bottle of perfume,18.99,beauty,false
+packet of headache pills,9.75,medicine,false
+box of imported chocolates,11.25,food,true
