@@ -22,7 +22,8 @@ describe ShoppingCart do
     end
   end
 
-  describe 'Testing Inputs 1' do
+  describe 'Testing Inputs' do
+    context "when input 1 is passed"
     it 'outputs the 1st input' do
       obj.add_items('book', 1)
       obj.add_items('music CD', 1)
@@ -31,7 +32,7 @@ describe ShoppingCart do
     end
   end
 
-  describe 'Testing Inputs 2' do
+  context "when input 2 is passed" do
     it 'outputs the 2nd input' do
       obj.add_items('imported box of chocolates', 1)
       obj.add_items('imported bottle of perfume', 1)
@@ -39,7 +40,7 @@ describe ShoppingCart do
     end
   end
 
-  describe 'Testing Inputs 3' do
+  context "when input 3 is passed" do
     it 'outputs the 3rd input' do
       obj.add_items('imported bottle of perfume', 1)
       obj.add_items('bottle of perfume', 1)

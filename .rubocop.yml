@@ -13,7 +13,6 @@ AllCops:
     - '**/*.gemfile'
     - '**/*.gemspec'
   Exclude:
-    - 'spec/*'
     - 'tmp/**/*'
     - 'vendor/**/*'
     - '.git/**/*'
